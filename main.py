@@ -42,6 +42,5 @@ async def on_raw_reaction_remove(payload: discord.RawReactionActionEvent):
         #The reason member is more complicated here is because await needs this extra info to remove roles
 
 
-
 client.run(os.environ['TOKEN'])
 

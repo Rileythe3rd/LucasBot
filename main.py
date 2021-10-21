@@ -6,7 +6,7 @@ import os
 client = discord.Client(intents=discord.Intents.all())
 
 
-# I want my bot to welcome people, private message them and force them to read the rules
+# I want my bot to welcome people, private message them and force them to read the rules and beat them up if they dont.
 @client.event
 async def on_ready():
     print('Ready. Logged in as: {0.user}'.format(client))
